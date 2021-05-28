@@ -1,0 +1,9 @@
+query Users {
+  getUsers {
+    avatarUrl
+    id
+    login
+    level
+    name
+  }
+}
