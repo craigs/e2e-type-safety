@@ -3,7 +3,7 @@ query Users {
     avatarUrl
     id
     login
-    level
     name
+    fieldDoesNotExist
   }
 }

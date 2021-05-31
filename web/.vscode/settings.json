@@ -4,6 +4,16 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": [
-    "javascript"
-  ]
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "graphql"
+  ],
+  "eslint.options": {
+    "extentions": [
+      ".ts",
+      ".tsx",
+      ".graphql"
+    ]
+  }
 }

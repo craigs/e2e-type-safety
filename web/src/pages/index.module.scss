@@ -1,39 +1,25 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  padding: 5rem 0;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
   font-size: 4rem;
-}
-
-.title {
+  line-height: 1.15;
+  margin: 0;
   text-align: center;
 }
