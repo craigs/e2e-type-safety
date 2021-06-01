@@ -80,7 +80,10 @@ module.exports = {
     },
     'import/resolver': {
       alias: {
-        map: [['~graphql', './src/generated/graphql.ts', '~lib', './src/lib']],
+        map: [
+          ['~graphql', './src/generated/graphql.ts'],
+          ['~lib', './src/lib']
+        ],
         extensions: ['.ts']
       }
     }

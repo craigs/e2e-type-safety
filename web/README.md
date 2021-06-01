@@ -42,6 +42,19 @@ configured in [codegen.yml](./codegen.yml).
 The output is [graphql.schema.json](./graphql.schema.json) and
 [src/generated/graphql.ts](./src/generated/graphql.ts)
 
+To fail code generation, add a non-existent field to your
+[Users.query.graphql](src/graphql/Users.query.graphql) file. As the field does
+not exist on the API, code generation will fail.
+
+## Linting
+
+Linting includes GraphQL linting. In this example, you will receive a linting
+error for a deprecated field in use.
+
+```bash
+npm run lint
+```
+
 ## Recommended plugins
 
 You can define recommended VSCode plugins for your application under
