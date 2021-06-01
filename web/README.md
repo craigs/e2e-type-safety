@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ## pages/index
 
 Start investigating this application by looking at
-[src/pages/index.ts](src/pages/index.ts).
+[src/pages/index.tsx](src/pages/index.tsx).
 
 This page utilises the useUsersQuery that is generated from
 [src/graphql/Users.query.graphql](src/graphql/Users.query.graphql)
