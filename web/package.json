@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "gen:types": "graphql-codegen --config codegen.yml",
+    "codegen": "graphql-codegen --config codegen.yml",
     "lint": "eslint . --ext .ts,.tsx,.graphql",
     "prettier": "prettier --config .prettierrc 'src/graphql/*.graphql'"
   },
