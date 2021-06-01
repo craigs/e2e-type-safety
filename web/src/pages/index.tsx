@@ -8,7 +8,7 @@ import styles from './index.module.scss'
 
 const Page: NextPage = () => {
   const { loading, data } = useUsersQuery()
-  if (loading) return
+  if (loading) return null
 
   const users = data.getUsers as User[]
 

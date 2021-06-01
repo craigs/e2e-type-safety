@@ -71,7 +71,8 @@ module.exports = {
         argsIgnorePattern: '^_'
       }
     ],
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'unicorn/no-null': 'off'
   },
   settings: {
     react: {
@@ -79,7 +80,7 @@ module.exports = {
     },
     'import/resolver': {
       alias: {
-        map: [['~graphql', './src/generated/graphql.ts']],
+        map: [['~graphql', './src/generated/graphql.ts', '~lib', './src/lib']],
         extensions: ['.ts']
       }
     }
